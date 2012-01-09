@@ -1,0 +1,117 @@
+body, html 
+{
+margin: 0;
+padding: 0;
+color: #000;
+/* background: #fafafa; */
+}
+
+#container
+{
+/* width: 90%; */
+/* width: 1548px; */
+margin: auto;
+/* color: #333; */
+/* border: 1px solid gray; */
+
+line-height: 130%;
+font-family: verdana;
+font-size: 12px;
+}
+
+#top
+{
+padding: 1em 10px;
+/* background-color: #ddd; */
+/* border-bottom: 1px solid gray; */
+border-bottom: 1px solid;
+}
+
+#top h1
+{
+padding: 0;
+margin: 0;
+padding-top: 30px;
+}
+
+#content
+{
+/* float: left; */
+/* width: 550px; */
+/* margin: 0 0 0 0; */
+
+/* padding : T R B L */
+padding: 1em 1em 1em 30em;
+}
+
+#leftnav
+{
+float: left;
+padding: 1em 1em 1em 1em;
+/* margin-left: 600px; */
+/* border-left: 1px solid; */
+}
+
+#middle
+{
+float: left;
+/* padding: 1em 1em 1em 1em; */
+width 0;
+/* margin-left: 600px; */
+/* border-left: 1px solid; */
+}
+
+#footer
+{
+clear: both;
+margin: 0;
+padding: .5em;
+color: #333;
+background-color: #ddd;
+border-top: 1px solid;
+}
+
+/* content styles */
+#content h3 
+{ 
+   margin: 0; 
+   padding: 1em 0em 2em 0em;
+}
+#content p { margin: 0 0 1em 0; }
+
+/* navigation styles */
+#rightnav h2 { margin: 0 0 .5em 0; }
+
+/* --- NAVIGATION --- */
+#navcontainer
+{
+/* width: 200px; */
+margin: 0;
+padding: 2;
+}
+
+#navcontainer ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+#navcontainer a
+{
+/* display: block; */
+/* padding: 15px 10px; */
+width: 180px;
+}
+
+a:link, a:visited
+{
+color: #000;
+text-decoration: none;
+}
+
+a:hover
+{
+background-color: #000;
+color: #fff;
+}
